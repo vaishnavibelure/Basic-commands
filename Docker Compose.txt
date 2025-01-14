@@ -5,7 +5,7 @@ services:
     image: mysql:5.7
     container_name: wp-db
     environment:
-      MYSQL_ROOT_PASSWORD: example # Use proper password for production
+      MYSQL_ROOT_PASSWORD: 
       MYSQL_DATABASE: wordpress
       MYSQL_USER: wordpress
       MYSQL_PASSWORD: wordpress
